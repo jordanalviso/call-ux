@@ -1,0 +1,15 @@
+.keypad {
+  position: absolute;
+  width: 324px; // was 294px without margin
+  height: 470px;
+  left: 50%;
+  top: 204px;
+  margin-left: -162px;
+}
+
+@media (max-width: 324px) {
+  .keypad {
+    left: 0;
+    margin-left: 0;
+  }
+}

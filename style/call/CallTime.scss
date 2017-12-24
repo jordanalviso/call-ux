@@ -1,0 +1,17 @@
+.time {
+  position: absolute;
+  width: 86px;
+  height: 21px;
+  top: 120px;
+  left: 50%;
+  margin-left: -43px;
+}
+
+.time-data {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

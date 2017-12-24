@@ -1,0 +1,43 @@
+.overlay {
+  position: absolute;
+  min-width: 380px;
+  width: 100%;
+  min-height: 700px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.35)
+}
+
+.starry-night {
+  position: absolute;
+  min-width: 380px;
+  width: 100%;
+  min-height: 700px;
+  height: 100%;
+  background-image: url('/img/background-640x426.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (min-width: 641px), (min-height: 427px) {
+  .starry-night {
+    background-image: url('/img/background-1280x853.jpg');
+  }
+}
+
+@media (min-width: 1281px), (min-height: 854px) {
+  .starry-night {
+    background-image: url('/img/background-1920x1280.jpg');
+  }
+}
+
+@media (min-width: 1921px), (min-height: 1281px) {
+  .starry-night {
+    background-image: url('/img/background-5263x3509.jpg');
+  }
+}
+
+@media (min-width: 5264px), (min-height: 3510px) {
+  .starry-night {
+    background-image: none;
+  }
+}

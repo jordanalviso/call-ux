@@ -1,0 +1,13 @@
+.view {
+  position: absolute;
+  top: 50%;
+  margin-top: -361px;
+  width: 100%;
+}
+
+@media (max-height: 722px) {
+  .view {
+    top: 0;
+    margin-top: 0;
+  }
+}

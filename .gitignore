@@ -1,0 +1,9 @@
+.DS_Store
+npm-debug.log
+node_modules
+lib
+dist
+style/.sass-cache
+.nyc_output
+coverage
+report

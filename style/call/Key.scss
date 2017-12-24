@@ -1,0 +1,47 @@
+.key {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  width: 78px;
+  height: 78px;
+  border-radius: 39px;
+  margin: 0 15px 16px 15px;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.key-value {
+  position: relative;
+  font-size: 38px;
+  margin: 0;
+  top: 11px;
+}
+
+.key-alias {
+  position: relative;
+  letter-spacing: 3.5px;
+  font-size: 10px;
+  margin: 0;
+  margin-left: 3.5px;
+  top: 10px;
+}
+
+.key-special {
+  position: relative;
+  font-size: 28px;
+  line-height: 78px;
+  margin: 0;
+}
+
+.event-target {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+}

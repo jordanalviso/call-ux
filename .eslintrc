@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "extends": "airbnb",
+  "env": {
+    "es6": true
+  },
+  "ecmaFeatures": {
+    "modules": true,
+    "jsx": true
+  },
+  "rules": {
+    "no-console": 0,
+    "no-underscore-dangle": 1,
+    "import/no-unresolved": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/extensions": "off",
+    "react/forbid-prop-types": ["error", { forbid: ["any", "array"] }],
+  },
+  "globals": {
+    "window": true,
+    "localStorage": true,
+  }
+}

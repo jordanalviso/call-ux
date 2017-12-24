@@ -1,0 +1,20 @@
+.number-display {
+  position: absolute;
+  width: 294px;
+  height: 64px;
+  left: 50%;
+  margin-left: -147px;
+  top: 70px;
+}
+
+.number-data {
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 38px;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

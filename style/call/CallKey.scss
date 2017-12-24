@@ -1,0 +1,63 @@
+.call-key {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  left: 50%;
+  margin-left: -39px;
+  top: 596px;
+  border-radius: 39px;
+  background-color: rgb(77, 217, 100);
+  color: rgb(255, 255, 255);
+  text-align: center;
+
+  -webkit-transform: translate3d(0px, 0px, 0);
+  -moz-transform: translate3d(0px, 0px, 0);
+  -ms-transform: translate3d(0px, 0px, 0);
+  -o-transform: translate3d(0px, 0px, 0);
+  transform: translate3d(0px, 0px, 0);
+}
+
+.call-key-red {
+  position: absolute;
+  top: 0;
+  background-color: rgb(217, 77, 77);
+  width: 100%;
+  height: 100%;
+  border-radius: 39px;
+  opacity: 0.0001;
+
+  -webkit-transform: translate3d(0px, 0px, 0);
+  -moz-transform: translate3d(0px, 0px, 0);
+  -ms-transform: translate3d(0px, 0px, 0);
+  -o-transform: translate3d(0px, 0px, 0);
+  transform: translate3d(0px, 0px, 0);
+}
+
+.call-key-icon {
+  position: absolute;
+  font-size: 40px;
+  left: 19px;
+  top: 19px;
+
+  -webkit-transform: rotate3d(0, 0, 0, 0deg);
+  -moz-transform: rotate3d(0, 0, 0, 0deg);
+  -ms-transform: rotate3d(0, 0, 0, 0deg);
+  -o-transform: rotate3d(0, 0, 0, 0deg);
+  transform: rotate3d(0, 0, 0, 0deg);
+}
+
+.event-target-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+
+  -webkit-transform: translate3d(0px, 0px, 0);
+  -moz-transform: translate3d(0px, 0px, 0);
+  -ms-transform: translate3d(0px, 0px, 0);
+  -o-transform: translate3d(0px, 0px, 0);
+  transform: translate3d(0px, 0px, 0);
+}
