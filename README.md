@@ -3,9 +3,8 @@
 A working example of a high-performance user interaction that uses layer management and element recycling with React to acheive top performance.
 
 ### Live Demo
-```
 [http://call-ux.surge.sh/](http://call-ux.surge.sh/)
-```
+
 ### Installing
 
 Clone the Repo:
