@@ -18,6 +18,12 @@
   background-position: center;
 }
 
+@media (max-width: 640px), (max-height: 426px) {
+  .starry-night {
+    background-image: none;
+  }
+}
+
 @media (min-width: 641px), (min-height: 427px) {
   .starry-night {
     background-image: url('/img/background-1280x853.jpg');
