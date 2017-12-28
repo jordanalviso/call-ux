@@ -6,7 +6,7 @@ A working example of a high-performance user interaction that uses layer managem
 
 Clone the Repo:
 ```
-https://github.com/jordanalviso/call-ux.git
+git clone https://github.com/jordanalviso/call-ux.git
 ```
 
 Install and Start:
