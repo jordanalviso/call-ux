@@ -5,19 +5,27 @@ A working example of a high-performance user interaction that uses layer managem
 ### Installing
 
 Clone the Repo:
-##### https://github.com/jordanalviso/call-ux.git
+```
+https://github.com/jordanalviso/call-ux.git
+```
 
 Install and Start:
-##### npm install
-##### npm start
+```
+npm install
+npm start
+```
 
 ## Developing
 
 Development Build:
-##### npm run build:dev
+```
+npm run build:dev
+```
 
 Production Build:
-##### npm run build:pro
+```
+npm run build:pro
+```
 
 ## Authors
 
