@@ -7,19 +7,20 @@
     "build:pro": "export NODE_ENV=\"production\"; npm run clean && babel src -d lib && gulp sass critical htmlmin && webpack -p",
     "clean": "rimraf lib",
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --config webpack.config.js",
-    "test": "export NODE_ENV=\"test\"; npm run test:unit",
-    "test:unit": "mocha --compilers js:babel-core/register -r jsdom-global/register --require ./test/helper.jsx --recursive ./src",
+    "test": "export NODE_ENV=\"test\"; jest",
+    "test:watch": "npm test -- --watch",
     "version:patch": "npm --no-git-tag-version version patch",
     "version:minor": "npm --no-git-tag-version version minor",
     "version:major": "npm --no-git-tag-version version major"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-jest": "^22.0.4",
     "babel-loader": "^7.1.2",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-preset-airbnb": "^2.2.3",
-    "chai": "^4.1.0",
-    "enzyme": "^3.2.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "eslint": "^4.7.2",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.2.0",
@@ -29,11 +30,10 @@
     "gulp-clean-css": "^3.8.0",
     "gulp-htmlmin": "^3.0.0",
     "gulp-sass": "^3.1.0",
+    "jest": "^22.0.4",
     "jsdom": "^11.5.0",
     "jsdom-global": "^3.0.0",
-    "mocha": "^4.0.0",
     "nock": "^9.0.13",
-    "react-addons-test-utils": "^15.4.0",
     "redux-mock-store": "^1.2.3",
     "rimraf": "^2.6.1",
     "webpack": "^3.5.5",
@@ -47,5 +47,11 @@
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.0",
     "redux": "^3.0.4"
+  },
+  "jest": {
+    "modulePaths": [
+      "src"
+    ],
+    "setupTestFrameworkScriptFile": "<rootDir>/test/setup.js"
   }
 }

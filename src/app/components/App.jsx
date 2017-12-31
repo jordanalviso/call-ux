@@ -23,7 +23,7 @@ const defaultProps = {
   time: 0,
 };
 
-const App = (props) => {
+export const App = (props) => {
   if (props.appReady) {
     return (
       <div>
