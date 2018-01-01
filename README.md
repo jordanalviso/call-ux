@@ -4,10 +4,10 @@ A working example of a high-performance user interaction that uses layer managem
 
 ![screenshot](https://s3-us-west-2.amazonaws.com/jordanalviso/ux-demo.png)
 
-### Live Demo
+## Live Demo
 [http://call-ux.surge.sh/](http://call-ux.surge.sh/)
 
-### Installing
+## Installing
 
 Clone the Repo:
 ```
@@ -30,6 +30,12 @@ npm run build:dev
 Production Build:
 ```
 npm run build:pro
+```
+
+## Testing
+
+```
+npm test
 ```
 
 ## Authors

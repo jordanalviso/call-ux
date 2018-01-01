@@ -20,11 +20,10 @@ const propTypes = {
 };
 
 const defaultProps = {
-  highlightPool: null,
   id: null,
 };
 
-class HighlightKey extends React.Component {
+export class HighlightKey extends React.Component {
   constructor(props) {
     super(props);
     this.state = {

@@ -17,7 +17,7 @@ const defaultProps = {
 
 };
 
-class DeleteKey extends React.Component {
+export class DeleteKey extends React.Component {
   constructor(props) {
     super(props);
     this.pressKey = this.pressKey.bind(this);

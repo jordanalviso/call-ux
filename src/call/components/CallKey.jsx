@@ -24,7 +24,7 @@ const defaultProps = {
   calling: false,
 };
 
-class CallKey extends React.Component {
+export class CallKey extends React.Component {
   constructor(props) {
     super(props);
     this.layoutIcon = this.layoutIcon.bind(this);
