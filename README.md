@@ -18,6 +18,7 @@ cd call-ux
 Install and Start:
 ```
 npm install
+npm run build:dev
 npm start
 ```
 
