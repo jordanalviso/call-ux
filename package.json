@@ -1,6 +1,6 @@
 {
   "name": "call-ux",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
     "build:dev": "export NODE_ENV=\"development\"; npm run clean && babel src -d lib && gulp sass critical htmlmin && webpack",
@@ -31,10 +31,6 @@
     "gulp-htmlmin": "^3.0.0",
     "gulp-sass": "^3.1.0",
     "jest": "^22.0.4",
-    "jsdom": "^11.5.0",
-    "jsdom-global": "^3.0.0",
-    "nock": "^9.0.13",
-    "redux-mock-store": "^1.2.3",
     "rimraf": "^2.6.1",
     "webpack": "^3.5.5",
     "webpack-dev-server": "^2.7.1",
@@ -51,6 +47,9 @@
   "jest": {
     "modulePaths": [
       "src"
+    ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/lib"
     ],
     "setupTestFrameworkScriptFile": "<rootDir>/test/setup.js"
   }

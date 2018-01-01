@@ -27,7 +27,7 @@ function layout(props) {
   };
 }
 
-const CallTime = (props) => {
+export const CallTime = (props) => {
   return (
     <div className="time" style={layout(props)}>
       <p className="time-data">{convertToTime(props.data)}</p>

@@ -22,7 +22,7 @@ const defaultProps = {
   value: null,
 };
 
-class Key extends React.Component {
+export class Key extends React.Component {
   constructor(props) {
     super(props);
     this.pressKey = this.pressKey.bind(this);

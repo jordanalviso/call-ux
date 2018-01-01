@@ -1,7 +1,7 @@
 import {
   RESET_TIMER,
   START_TIMER,
-  TICK_TIMER
+  TICK_TIMER,
 } from 'call/actions/time';
 
 const initialState = {
@@ -21,7 +21,7 @@ const callKey = (state = initialState, action) => {
       clearInterval(state.timer);
       return {
         counter: 0,
-        timer: action.timer,
+        timer: null,
       };
 
     case TICK_TIMER:

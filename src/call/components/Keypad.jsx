@@ -17,7 +17,7 @@ function layout(props) {
   };
 }
 
-const Keypad = (props) => {
+export const Keypad = (props) => {
   return (
     <div className="keypad" style={layout(props)}>
       {props.children}
