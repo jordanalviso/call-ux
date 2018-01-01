@@ -22,6 +22,9 @@ npm run build:dev
 npm start
 ```
 
+Open localhost:8000 in a Browser:
+[http://localhost:8000](http://localhost:8000)
+
 ## Developing
 
 Development Build:
