@@ -1,6 +1,6 @@
 {
   "name": "call-ux",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
     "build:dev": "export NODE_ENV=\"development\"; npm run clean && babel src -d lib && gulp sass critical htmlmin && webpack",
