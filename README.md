@@ -2,7 +2,7 @@
 
 A working example of a high-performance user interaction that uses layer management and element recycling with React to acheive top performance.
 
-![screenshot](https://s3-us-west-2.amazonaws.com/jordanalviso/ux-demo.png)
+![screenshot](https://ibb.co/zPzFVxH)
 
 ## Live Demo
 [http://call-ux.surge.sh/](http://call-ux.surge.sh/)
